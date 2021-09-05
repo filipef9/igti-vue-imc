@@ -15,3 +15,7 @@ vscode:
     - dbaeumer.vscode-eslint
     - ms-vscode.vscode-typescript-tslint-plugin
     - octref.vetur
+
+tasks:
+  - init: yarn install
+    command: yarn
